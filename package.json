@@ -1,7 +1,7 @@
 {
   "name": "gstarke-palindrome",
   "version": "0.1.0",
-  "description": "palindrome detector",
+  "description": "Palindrome detector",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
