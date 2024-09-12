@@ -1,3 +1,5 @@
+module.exports = Phrase;
+
 // Reverses a string.
 String.prototype.reverse = function reverse() {
     return Array.from(this).reverse().join("");
@@ -16,8 +18,4 @@ function Phrase(content) {
     this.palindrome = function palindrome() {
         return this.processedContent() === this.processedContent().reverse();
     }
-}
-
-String.prototype.palindrome = function palindrome() {
-    return new Phrase(this).palindrome();
 }
